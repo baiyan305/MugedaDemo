@@ -1,0 +1,57 @@
+{"animations":[
+
+{"name":"Master Card",
+ "desc":" Featuring: animation, image transation, open internal",
+ "url":"file:///android_asset/demos/mastercard/index.html",
+ "thumbnail":"file:///android_asset/demos/mastercard/thumbnail.jpg"
+},
+
+{"name":"Das Auto",
+ "desc":" Featuring: animation, expand, open external",
+ "url":"file:///android_asset/demos/audi/index.html",
+ "thumbnail":"file:///android_asset/demos/audi/thumbnail.png"
+},
+
+{"name":"Coupon",
+ "desc":"Featuring: animation, resize, store picture",
+ "url":"file:///android_asset/demos/storepicture/index.html",
+ "thumbnail":"file:///android_asset/demos/storepicture/thumbnail.jpg"
+},
+
+{"name":"Discount",
+ "desc":"Featuring: animation, resize, create calendar",
+ "url":"file:///android_asset/demos/createcalendarevent/index.html",
+ "thumbnail":"file:///android_asset/demos/createcalendarevent/thumbnail.jpg"
+},
+
+{"name":"Play Video",
+ "desc":"Featuring: animation, expand, play video",
+ "url":"file:///android_asset/demos/playvideo/index.html",
+ "thumbnail":"file:///android_asset/demos/playvideo/thumbnail.jpg"
+},
+
+{"name":"Make Call",
+ "desc":"Featuring: animation, phone call",
+ "url":"file:///android_asset/demos/makecall/index.html",
+ "thumbnail":"file:///android_asset/demos/makecall/thumbnail.png"
+},
+
+{"name":"Send Message",
+ "desc":"Featuring: animation, send message",
+ "url":"file:///android_asset/demos/sendsms/index.html",
+ "thumbnail":"file:///android_asset/demos/sendsms/thumbnail.png"
+},
+
+{"name":"Send Mail",
+ "desc":"Featuring: animation, send mail",
+ "url":"file:///android_asset/demos/sendmail/index.html",
+ "thumbnail":"file:///android_asset/demos/sendmail/thumbnail.png"
+},
+
+{"name":"Form",
+ "desc":"Featuring: animation, form submission",
+ "url":"file:///android_asset/demos/form/index.html",
+ "thumbnail":"file:///android_asset/demos/form/thumbnail.jpg"
+}
+
+]}

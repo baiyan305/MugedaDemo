@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/datapanlebackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- Head -->
+
+    <LinearLayout
+        android:id="@+id/preview_logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/preview_top"
+        android:orientation="vertical"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/headerimg"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:contentDescription="@string/headerdesc"
+            android:scaleType="center"
+            android:src="@drawable/preview_logo" />
+
+        <TextView
+            android:id="@+id/headertext"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/preview_logo_text"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Button Panel -->
+
+    <FrameLayout
+        android:id="@+id/buttonpanel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/preview_tool_bg"
+        android:paddingBottom="3dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp" >
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/backbutton"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="@string/preview_back_button"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+    <!-- Title and Description -->
+
+    <LinearLayout
+        android:id="@+id/titleanddesc"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/titleanddescpanel"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/preview_title"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/preview_title_bg"
+            android:paddingLeft="8dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/preview_desc"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingLeft="8dp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Preview -->
+
+    <LinearLayout
+        android:id="@+id/animationpanel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:gravity="center" >
+
+        <com.mugeda.androidsdk.view.AdView
+            android:id="@+id/adview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=320">  
+<title>Canvas Animation Exported by Mugeda</title>
+<style type="text/css">
+html, body, #viewbox { 
+border:none; margin:0; padding:0; overflow:hidden; width:100%; height:100%;}
+canvas {margin:auto; }
+
+body {-webkit-tap-highlight-color:rgba(0,0,0,0);background-color:rgba(0,0,0,0);}
+
+<!-- #viewbox {background:rgb(0, 69, 138);} -->
+#viewbox {background:rgba(0,0,0,0);}
+</style>
+<script src="mugeda_player_0.1.0.js"></script>
+<script src="50d34651508f3b8f76000022.js"></script>
+<script>
+var sourceWidth = 320;
+var sourceHeight = 50;
+
+var dataName = 'id_50d34651508f3b8f76000022';
+
+function setupAnimation() {
+	checkData();
+}
+
+function checkData() {
+	if (typeof Mugeda != 'undefined') {
+		if(Mugeda.data[dataName] == 'undefined') {
+            setTimeout(checkData, 25);
+		} else {
+            Mugeda.play(dataName, "container");
+		}
+    } else { 
+    	setTimeout(checkData, 25); 
+    }
+}
+
+</script>
+</head>
+<body onload ="setupAnimation();" >
+<div id="viewbox">
+  <table cellpadding="0" cellspacing="0" style="width:100%;height:100%;">
+  <tr><td  style="vertical-align:middle" align="center" ><div id="container" style="border:none;"></div></td></tr>
+  </table>
+</div>
+</body>
+</html>
